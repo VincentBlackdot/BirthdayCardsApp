@@ -1,0 +1,490 @@
+[2024-12-28 09:28:34] Raw POST data: 
+[2024-12-28 09:28:34] FILES array: Array
+(
+)
+
+[2024-12-28 09:28:34] POST array: Array
+(
+)
+
+[2024-12-28 09:28:34] Received request - Action: get_all, Method: GET
+[2024-12-28 09:28:34] Response sent: <br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+{"success":true,"templates":[{"id":1,"name":"Birthday Wishes 1","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"stars","image_path":null},{"id":2,"name":"Birthday Wishes 2","message":"Happy Birthday [NAME]! May your special day be as wonderful as you are! \u00ad\u0192\u00c4\u00e9","design":"balloons","image_path":null},{"id":3,"name":"Birthday Wishes 3","message":"Hey [NAME]! Happy Birthday! Here's to another year of amazing adventures! \u00ad\u0192\u00c4\u00ea","design":"confetti","image_path":null},{"id":4,"name":"Birthday Wishes 4","message":"To [NAME], sending you the warmest birthday wishes on your special day! \u00ad\u0192\u00c4\u00e8","design":"cake","image_path":null},{"id":5,"name":"Birthday Wishes 5","message":"Dearest [NAME], have a magical birthday filled with unforgettable moments! \u00d4\u00a3\u00bf","design":"gifts","image_path":null}]}
+[2024-12-28 09:28:39] Raw POST data: 
+[2024-12-28 09:28:39] FILES array: Array
+(
+)
+
+[2024-12-28 09:28:39] POST array: Array
+(
+)
+
+[2024-12-28 09:28:39] Received request - Action: get_all, Method: GET
+[2024-12-28 09:28:39] Response sent: <br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+{"success":true,"templates":[{"id":1,"name":"Birthday Wishes 1","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"stars","image_path":null},{"id":2,"name":"Birthday Wishes 2","message":"Happy Birthday [NAME]! May your special day be as wonderful as you are! \u00ad\u0192\u00c4\u00e9","design":"balloons","image_path":null},{"id":3,"name":"Birthday Wishes 3","message":"Hey [NAME]! Happy Birthday! Here's to another year of amazing adventures! \u00ad\u0192\u00c4\u00ea","design":"confetti","image_path":null},{"id":4,"name":"Birthday Wishes 4","message":"To [NAME], sending you the warmest birthday wishes on your special day! \u00ad\u0192\u00c4\u00e8","design":"cake","image_path":null},{"id":5,"name":"Birthday Wishes 5","message":"Dearest [NAME], have a magical birthday filled with unforgettable moments! \u00d4\u00a3\u00bf","design":"gifts","image_path":null}]}
+[2024-12-28 09:29:12] Raw POST data: 
+[2024-12-28 09:29:12] FILES array: Array
+(
+    [image] => Array
+        (
+            [name] => R.jpeg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php93A1.tmp
+            [error] => 0
+            [size] => 577746
+        )
+
+)
+
+[2024-12-28 09:29:12] POST array: Array
+(
+    [name] => purple
+    [message] => Happy Birthday [name], wishing a blissful day full of blessings and love.
+    [design] => confetti
+)
+
+[2024-12-28 09:29:12] Received request - Action: upload, Method: POST
+[2024-12-28 09:29:12] Error occurred: Database prepare error: Unknown column 'image_path' in 'field list'
+[2024-12-28 09:29:12] Stack trace: #0 {main}
+[2024-12-28 09:29:12] Response sent: {"success":false,"message":"Database prepare error: Unknown column 'image_path' in 'field list'","debug":{"post":{"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti"},"files":{"image":{"name":"R.jpeg","type":"image\/jpeg","tmp_name":"C:\\xampp\\tmp\\php93A1.tmp","error":0,"size":577746}},"error":"Database prepare error: Unknown column 'image_path' in 'field list'","trace":"#0 {main}"}}
+[2024-12-28 09:29:51] Raw POST data: 
+[2024-12-28 09:29:51] FILES array: Array
+(
+)
+
+[2024-12-28 09:29:51] POST array: Array
+(
+)
+
+[2024-12-28 09:29:51] Received request - Action: get_all, Method: GET
+[2024-12-28 09:29:51] Response sent: <br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  Undefined array key "image_path" in <b>C:\xampp\htdocs\Bdaysphp\classes\Template.php</b> on line <b>41</b><br />
+{"success":true,"templates":[{"id":1,"name":"Birthday Wishes 1","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"stars","image_path":null},{"id":2,"name":"Birthday Wishes 2","message":"Happy Birthday [NAME]! May your special day be as wonderful as you are! \u00ad\u0192\u00c4\u00e9","design":"balloons","image_path":null},{"id":3,"name":"Birthday Wishes 3","message":"Hey [NAME]! Happy Birthday! Here's to another year of amazing adventures! \u00ad\u0192\u00c4\u00ea","design":"confetti","image_path":null},{"id":4,"name":"Birthday Wishes 4","message":"To [NAME], sending you the warmest birthday wishes on your special day! \u00ad\u0192\u00c4\u00e8","design":"cake","image_path":null},{"id":5,"name":"Birthday Wishes 5","message":"Dearest [NAME], have a magical birthday filled with unforgettable moments! \u00d4\u00a3\u00bf","design":"gifts","image_path":null}]}
+[2024-12-28 09:32:30] Raw POST data: 
+[2024-12-28 09:32:30] FILES array: Array
+(
+)
+
+[2024-12-28 09:32:30] POST array: Array
+(
+)
+
+[2024-12-28 09:32:30] Received request - Action: get_all, Method: GET
+[2024-12-28 09:32:30] Response sent: {"success":true,"templates":[]}
+[2024-12-28 09:32:33] Raw POST data: 
+[2024-12-28 09:32:33] FILES array: Array
+(
+)
+
+[2024-12-28 09:32:33] POST array: Array
+(
+)
+
+[2024-12-28 09:32:33] Received request - Action: get_all, Method: GET
+[2024-12-28 09:32:33] Response sent: {"success":true,"templates":[]}
+[2024-12-28 09:32:50] Raw POST data: 
+[2024-12-28 09:32:50] FILES array: Array
+(
+    [image] => Array
+        (
+            [name] => R.jpeg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE945.tmp
+            [error] => 0
+            [size] => 577746
+        )
+
+)
+
+[2024-12-28 09:32:50] POST array: Array
+(
+    [name] => purple
+    [message] => Happy Birthday [name], wishing a blissful day full of blessings and love.
+    [design] => confetti
+)
+
+[2024-12-28 09:32:50] Received request - Action: upload, Method: POST
+[2024-12-28 09:32:50] Response sent: {"success":true,"message":"Template uploaded successfully","template":{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"uploads\/templates\/template_676fb7b2e5f4c.jpeg"}}
+[2024-12-28 09:32:50] Raw POST data: 
+[2024-12-28 09:32:50] FILES array: Array
+(
+)
+
+[2024-12-28 09:32:50] POST array: Array
+(
+)
+
+[2024-12-28 09:32:50] Received request - Action: get_all, Method: GET
+[2024-12-28 09:32:50] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"uploads\/templates\/template_676fb7b2e5f4c.jpeg"}]}
+[2024-12-28 09:33:10] Raw POST data: 
+[2024-12-28 09:33:10] FILES array: Array
+(
+)
+
+[2024-12-28 09:33:10] POST array: Array
+(
+)
+
+[2024-12-28 09:33:11] Received request - Action: get_all, Method: GET
+[2024-12-28 09:33:11] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"uploads\/templates\/template_676fb7b2e5f4c.jpeg"}]}
+[2024-12-28 09:57:38] Raw POST data: 
+[2024-12-28 09:57:38] FILES array: Array
+(
+    [image] => Array
+        (
+            [name] => OIP (2).jpeg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php9B36.tmp
+            [error] => 0
+            [size] => 14586
+        )
+
+)
+
+[2024-12-28 09:57:38] POST array: Array
+(
+    [name] => ballons
+    [message] => Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! ­ƒÄë
+    [design] => gifts
+)
+
+[2024-12-28 09:57:38] Received request - Action: upload, Method: POST
+[2024-12-28 09:57:38] Response sent: {"success":true,"message":"Template uploaded successfully","template":{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"uploads\/templates\/template_676fbd824c53f.jpeg"}}
+[2024-12-28 09:57:38] Raw POST data: 
+[2024-12-28 09:57:38] FILES array: Array
+(
+)
+
+[2024-12-28 09:57:38] POST array: Array
+(
+)
+
+[2024-12-28 09:57:38] Received request - Action: get_all, Method: GET
+[2024-12-28 09:57:38] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-28 10:01:26] Raw POST data: 
+[2024-12-28 10:01:26] FILES array: Array
+(
+)
+
+[2024-12-28 10:01:26] POST array: Array
+(
+)
+
+[2024-12-28 10:01:26] Received request - Action: get_all, Method: GET
+[2024-12-28 10:01:26] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 16:57:45] Raw POST data: 
+[2024-12-30 16:57:45] FILES array: Array
+(
+)
+
+[2024-12-30 16:57:45] POST array: Array
+(
+)
+
+[2024-12-30 16:57:45] Received request - Action: get_all, Method: GET
+[2024-12-30 16:57:45] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 17:05:36] Raw POST data: 
+[2024-12-30 17:05:36] FILES array: Array
+(
+)
+
+[2024-12-30 17:05:36] POST array: Array
+(
+)
+
+[2024-12-30 17:05:36] Received request - Action: get_all, Method: GET
+[2024-12-30 17:05:36] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 17:06:57] Raw POST data: 
+[2024-12-30 17:06:57] FILES array: Array
+(
+)
+
+[2024-12-30 17:06:57] POST array: Array
+(
+)
+
+[2024-12-30 17:06:58] Received request - Action: get_all, Method: GET
+[2024-12-30 17:06:58] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 17:07:07] Raw POST data: 
+[2024-12-30 17:07:07] FILES array: Array
+(
+)
+
+[2024-12-30 17:07:07] POST array: Array
+(
+)
+
+[2024-12-30 17:07:08] Received request - Action: get_all, Method: GET
+[2024-12-30 17:07:08] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 17:07:24] Raw POST data: 
+[2024-12-30 17:07:24] FILES array: Array
+(
+)
+
+[2024-12-30 17:07:24] POST array: Array
+(
+)
+
+[2024-12-30 17:07:24] Received request - Action: get_all, Method: GET
+[2024-12-30 17:07:24] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 17:09:48] Raw POST data: 
+[2024-12-30 17:09:48] FILES array: Array
+(
+)
+
+[2024-12-30 17:09:48] POST array: Array
+(
+)
+
+[2024-12-30 17:09:48] Received request - Action: get_all, Method: GET
+[2024-12-30 17:09:48] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 17:10:24] Raw POST data: 
+[2024-12-30 17:10:24] FILES array: Array
+(
+)
+
+[2024-12-30 17:10:24] POST array: Array
+(
+)
+
+[2024-12-30 17:10:24] Received request - Action: get_all, Method: GET
+[2024-12-30 17:10:24] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 17:12:54] Raw POST data: 
+[2024-12-30 17:12:54] FILES array: Array
+(
+)
+
+[2024-12-30 17:12:54] POST array: Array
+(
+)
+
+[2024-12-30 17:12:54] Received request - Action: get_all, Method: GET
+[2024-12-30 17:12:54] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 17:14:15] Raw POST data: 
+[2024-12-30 17:14:15] FILES array: Array
+(
+)
+
+[2024-12-30 17:14:15] POST array: Array
+(
+)
+
+[2024-12-30 17:14:15] Received request - Action: get_all, Method: GET
+[2024-12-30 17:14:15] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-30 17:40:53] Raw POST data: 
+[2024-12-30 17:40:53] FILES array: Array
+(
+)
+
+[2024-12-30 17:40:53] POST array: Array
+(
+)
+
+[2024-12-30 17:40:53] Received request - Action: get_all, Method: GET
+[2024-12-30 17:40:53] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-31 14:00:31] Raw POST data: 
+[2024-12-31 14:00:31] FILES array: Array
+(
+)
+
+[2024-12-31 14:00:31] POST array: Array
+(
+)
+
+[2024-12-31 14:00:31] Received request - Action: get_all, Method: GET
+[2024-12-31 14:00:31] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-31 14:42:07] Raw POST data: 
+[2024-12-31 14:42:07] FILES array: Array
+(
+)
+
+[2024-12-31 14:42:07] POST array: Array
+(
+)
+
+[2024-12-31 14:42:07] Received request - Action: get_all, Method: GET
+[2024-12-31 14:42:07] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"}]}
+[2024-12-31 14:48:52] Raw POST data: 
+[2024-12-31 14:48:52] FILES array: Array
+(
+    [image] => Array
+        (
+            [name] => GUEST_903a97e9-b3e1-4a76-a31f-fb808261c935.avif
+            [type] => image/avif
+            [tmp_name] => C:\xampp\tmp\php8522.tmp
+            [error] => 0
+            [size] => 3435
+        )
+
+)
+
+[2024-12-31 14:48:52] POST array: Array
+(
+    [name] => envelopes
+    [message] => Wishes of the century be with you [name] as you celebrate your birthday. 
+    [design] => balloons
+)
+
+[2024-12-31 14:48:52] Received request - Action: upload, Method: POST
+[2024-12-31 14:48:52] Error occurred: Invalid file type. Only JPG, PNG, and GIF are allowed. Got: application/octet-stream
+[2024-12-31 14:48:52] Stack trace: #0 {main}
+[2024-12-31 14:48:52] Response sent: {"success":false,"message":"Invalid file type. Only JPG, PNG, and GIF are allowed. Got: application\/octet-stream","debug":{"post":{"name":"envelopes","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons"},"files":{"image":{"name":"GUEST_903a97e9-b3e1-4a76-a31f-fb808261c935.avif","type":"image\/avif","tmp_name":"C:\\xampp\\tmp\\php8522.tmp","error":0,"size":3435}},"error":"Invalid file type. Only JPG, PNG, and GIF are allowed. Got: application\/octet-stream","trace":"#0 {main}"}}
+[2024-12-31 14:49:12] Raw POST data: 
+[2024-12-31 14:49:12] FILES array: Array
+(
+    [image] => Array
+        (
+            [name] => blank-musical-greeting-card-8-x-11-large-card-inside.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpD343.tmp
+            [error] => 0
+            [size] => 53460
+        )
+
+)
+
+[2024-12-31 14:49:12] POST array: Array
+(
+    [name] => books
+    [message] => Wishes of the century be with you [name] as you celebrate your birthday. 
+    [design] => balloons
+)
+
+[2024-12-31 14:49:12] Received request - Action: upload, Method: POST
+[2024-12-31 14:49:12] Response sent: {"success":true,"message":"Template uploaded successfully","template":{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}}
+[2024-12-31 14:49:12] Raw POST data: 
+[2024-12-31 14:49:12] FILES array: Array
+(
+)
+
+[2024-12-31 14:49:12] POST array: Array
+(
+)
+
+[2024-12-31 14:49:12] Received request - Action: get_all, Method: GET
+[2024-12-31 14:49:12] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}
+[2024-12-31 19:12:51] Raw POST data: 
+[2024-12-31 19:12:51] FILES array: Array
+(
+)
+
+[2024-12-31 19:12:51] POST array: Array
+(
+)
+
+[2024-12-31 19:12:51] Received request - Action: get_all, Method: GET
+[2024-12-31 19:12:51] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}
+[2024-12-31 19:36:44] Raw POST data: 
+[2024-12-31 19:36:44] FILES array: Array
+(
+)
+
+[2024-12-31 19:36:44] POST array: Array
+(
+)
+
+[2024-12-31 19:36:44] Received request - Action: get_all, Method: GET
+[2024-12-31 19:36:44] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}
+[2024-12-31 19:36:59] Raw POST data: 
+[2024-12-31 19:36:59] FILES array: Array
+(
+)
+
+[2024-12-31 19:36:59] POST array: Array
+(
+)
+
+[2024-12-31 19:37:00] Received request - Action: get_all, Method: GET
+[2024-12-31 19:37:00] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}
+[2024-12-31 19:44:38] Raw POST data: 
+[2024-12-31 19:44:38] FILES array: Array
+(
+)
+
+[2024-12-31 19:44:38] POST array: Array
+(
+)
+
+[2024-12-31 19:44:38] Received request - Action: get_all, Method: GET
+[2024-12-31 19:44:38] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}
+[2024-12-31 19:45:16] Raw POST data: 
+[2024-12-31 19:45:16] FILES array: Array
+(
+)
+
+[2024-12-31 19:45:16] POST array: Array
+(
+)
+
+[2024-12-31 19:45:16] Received request - Action: get_all, Method: GET
+[2024-12-31 19:45:16] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}
+[2024-12-31 19:45:31] Raw POST data: 
+[2024-12-31 19:45:31] FILES array: Array
+(
+)
+
+[2024-12-31 19:45:31] POST array: Array
+(
+)
+
+[2024-12-31 19:45:31] Received request - Action: get_all, Method: GET
+[2024-12-31 19:45:31] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}
+[2024-12-31 19:47:18] Raw POST data: 
+[2024-12-31 19:47:18] FILES array: Array
+(
+)
+
+[2024-12-31 19:47:18] POST array: Array
+(
+)
+
+[2024-12-31 19:47:18] Received request - Action: get_all, Method: GET
+[2024-12-31 19:47:18] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}
+[2024-12-31 19:52:27] Raw POST data: 
+[2024-12-31 19:52:27] FILES array: Array
+(
+)
+
+[2024-12-31 19:52:27] POST array: Array
+(
+)
+
+[2024-12-31 19:52:27] Received request - Action: get_all, Method: GET
+[2024-12-31 19:52:27] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}
+[2024-12-31 19:58:56] Raw POST data: 
+[2024-12-31 19:58:56] FILES array: Array
+(
+)
+
+[2024-12-31 19:58:56] POST array: Array
+(
+)
+
+[2024-12-31 19:58:56] Received request - Action: get_all, Method: GET
+[2024-12-31 19:58:56] Response sent: {"success":true,"templates":[{"id":1,"name":"purple","message":"Happy Birthday [name], wishing a blissful day full of blessings and love.","design":"confetti","image_path":"\/uploads\/templates\/template_676fb7b2e5f4c.jpeg"},{"id":2,"name":"ballons","message":"Dear [NAME], wishing you a fantastic birthday filled with joy and laughter! \u00ad\u0192\u00c4\u00eb","design":"gifts","image_path":"\/uploads\/templates\/template_676fbd824c53f.jpeg"},{"id":3,"name":"books","message":"Wishes of the century be with you [name] as you celebrate your birthday. ","design":"balloons","image_path":"\/uploads\/templates\/template_6773f658bca6a.jpg"}]}

@@ -1,0 +1,304 @@
+.templates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.template-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.template-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.template-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.template-card.selected {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+}
+
+.template-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.message-card {
+    background: white;
+    padding: 1rem;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.message-preview {
+    font-size: 0.9rem;
+    color: #495057;
+    line-height: 1.4;
+}
+
+.preview-box {
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.birthday-card {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+.birthday-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4));
+    pointer-events: none;
+}
+
+.card-content {
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 1;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 90%;
+    max-height: 80%;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-design {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2;
+}
+
+.error-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #dc3545;
+    font-weight: bold;
+    z-index: 2;
+}
+
+/* Background Colors */
+.bg-primary { 
+    background: linear-gradient(135deg, #007bff, #0056b3);
+}
+.bg-success { 
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+}
+.bg-info { 
+    background: linear-gradient(135deg, #17a2b8, #117a8b);
+}
+.bg-warning { 
+    background: linear-gradient(135deg, #ffc107, #d39e00);
+    color: #000;
+}
+.bg-danger { 
+    background: linear-gradient(135deg, #dc3545, #bd2130);
+}
+
+/* Design Icons */
+.design-icon {
+    font-size: 1.8rem;
+    opacity: 0.9;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3));
+    color: white;
+}
+
+.design-stars::before { content: '⭐'; }
+.design-balloons::before { content: '🎈'; }
+.design-confetti::before { content: '🎊'; }
+.design-cake::before { content: '🎂'; }
+.design-gifts::before { content: '🎁'; }
+
+/* Upload Form */
+.modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.form-text {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-top: 0.25rem;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Template Preview */
+.template-preview {
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f8f9fa;
+    border: 2px dashed #dee2e6;
+}
+
+.preview-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.template-preview .birthday-card {
+    height: 100%;
+    border-radius: 0;
+}
+
+/* Loader Styles */
+.preloader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.preloader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.preloader .spinner-border {
+    width: 4rem;
+    height: 4rem;
+}
+
+.preloader .loading-text {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+/* Hide preloader by default */
+.preloader-overlay {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Show preloader when active */
+.preloader-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Preloader */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.preloader p {
+    margin-top: 1rem;
+    color: #007bff;
+    font-weight: 500;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.success-message {
+    color: #198754;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+/* Download Mode */
+.birthday-card.download-mode {
+    transform: scale(2);
+    position: fixed;
+    top: -9999px;
+    left: -9999px;
+    z-index: -1;
+}

@@ -1,0 +1,56 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Uploaded files
+/uploads/
+/uploads/*
+!/uploads/.gitkeep
+
+# Logs
+*.log
+/logs/
+api/email_debug.log
+
+# Dependencies
+/vendor/
+composer.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.temp
+
+# Debug files
+debug.log
+error_log
+access_log
+
+# Database backups
+*.sql
+*.sqlite
+*.db
+!database.sql  # Keep the main schema file
+
+# Configuration files that might contain sensitive info
+config/*.php
+!config/database.php  # Keep the database configuration template
+
+# Keep directories but ignore contents
+/uploads/.gitkeep
